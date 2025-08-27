@@ -5,9 +5,6 @@
 This project forecasts hourly EV charging demand using synthetic but realistic data (weather, time, and traffic).
 The goal is to support staffing, pricing, and energy planning decisions at EV charging stations.
 🗂 Dataset
-
-Synthetic dataset generated hourly:
-
 **Features:**
 temp_c → temperature
 precip → precipitation indicator
@@ -31,9 +28,9 @@ sessions → EV charging demand (sessions/hour)
 
 Model Used: Random Forest Regressor
 Evaluation (last 14 days):
-MAE = 11.51
-RMSE = 12.07
-MAPE = 29.22%
+-MAE = 11.51
+-RMSE = 12.07
+-MAPE = 29.22%
 **Key insights**:
 
 - Evening peaks dominate charging demand.
